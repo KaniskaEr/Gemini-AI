@@ -26,24 +26,24 @@ A simple Streamlit web app that integrates with Google's Gemini API (via `google
 git clone https://github.com/your-username/kanis-gpt.git
 cd kanis-gpt
 ```
-###2. Create and activate a virtual environment (optional but recommended)
+### 2. Create and activate a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-###3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-###4. Run the app
+### 4. Run the app
 streamlit run app.py
 
-⚙️ Configuration
+### ⚙️Configuration
 Replace the API key in app.py with your own:
 
 genai.configure(api_key="YOUR_API_KEY_HERE")
 
-📦requirements.txt
+### 📦requirements.txt
 streamlit
 google-generativeai
 
-📄 License
+### 📄 License
 This project is open source and available under the MIT License.
